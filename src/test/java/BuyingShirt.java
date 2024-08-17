@@ -48,8 +48,7 @@ public class BuyingShirt {
     public void buyingShirt() throws InterruptedException {
         WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(5));
 
-//        String url= "http://www.automationpractice.pl/index.php";
-//        Assert.assertEquals(driver.getCurrentUrl(),url,"there is a differance!!");
+
 
 
 
