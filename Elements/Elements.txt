@@ -1,28 +1,27 @@
 HomePage:
-WomenButtonHomeScreen = <a href="http://www.automationpractice.pl/index.php?id_category=3&amp;controller=category" title="Women" class="sf-with-ul">Women</a>
-
-T-shirtButtonSubMenu = <a href="http://www.automationpractice.pl/index.php?id_category=5&amp;controller=category" title="T-shirts">T-shirts</a>
-
-SignInButton = <a class="login" href="http://www.automationpractice.pl/index.php?controller=my-account" rel="nofollow" title="Log in to your customer account">Sign in</a>
-
-SingOutButton =<a class="logout" href="http://www.automationpractice.pl/index.php?mylogout=" rel="nofollow" title="Log me out">
-               			Sign out
-               		</a>
+    WomenButtonHomeScreen = <a href="http://www.automationpractice.pl/index.php?id_category=3&amp;controller=category" title="Women" class="sf-with-ul">Women</a>
+    SummerDressesButtonSubMenu = <a href="http://www.automationpractice.pl/index.php?id_category=11&amp;controller=category" title="Summer Dresses">Summer Dresses</a>
+    SignInButton = <a class="login" href="http://www.automationpractice.pl/index.php?controller=my-account" rel="nofollow" title="Log in to your customer account">Sign in</a>
+    SingOutButton =<a class="logout" href="http://www.automationpractice.pl/index.php?mylogout=" rel="nofollow" title="Log me out">Sign out</a>
 
 SignIn Page:
-EmailTextField = <input class="is_required validate account_input form-control" data-validate="isEmail" type="text" id="email" name="email" value="">
+    EmailTextField = <input class="is_required validate account_input form-control" data-validate="isEmail" type="text" id="email" name="email" value="">
+    PasswordTextField = <input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="">
+    SubmitButton = <button type="submit" id="SubmitLogin" name="SubmitLogin" class="button btn btn-default button-medium"><span><i class="icon-lock left"></i>Sign in</span></button>
+    Welcome Text =<p class="info-account">Welcome to your account. Here you can manage all of your personal information and orders.</p>
+    HomeButton = <li><a class="btn btn-default button button-small" href="http://www.automationpractice.pl/" title="Home"><span><i class="icon-chevron-left"></i> Home</span></a></li>
 
-PasswordTextField = <input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="">
+SummerDress Page:
+    2nd Dress = <a class="product-name" href="http://www.automationpractice.pl/index.php?id_product=6&amp;controller=product" title="Printed Summer Dress" itemprop="url">Printed Summer Dress</a>
+    "More" Button = <a class="button lnk_view btn btn-default" href="http://www.automationpractice.pl/index.php?id_product=7&amp;controller=product" title="View"><span>More</span></a>
 
-SubmitButton = <button type="submit" id="SubmitLogin" name="SubmitLogin" class="button btn btn-default button-medium">
-               							<span>
-               								<i class="icon-lock left"></i>
-               								Sign in
-               							</span>
-               						</button>
+Product Page
+    White Color = <a href="http://www.automationpractice.pl/index.php?id_product=6&amp;controller=product" id="color_8" name="White" class="color_pick" style="background:#ffffff;" title="White"></a>
+    Size Menu = <select name="group_1" id="group_1" class="form-control attribute_select no-print"><option value="1" selected="selected" title="S">S</option><option value="2" title="M">M</option><option value="3" title="L">L</option></select>
+    Quantity = <input type="text" name="qty" id="quantity_wanted" class="text" value="1">
+    Add To Cart = <button type="submit" name="Submit" class="exclusive"><span>Add to cart</span></button>
+    Produced To Checkout = <a class="btn btn-default button button-medium" href="http://www.automationpractice.pl/index.php?controller=order" title="Proceed to checkout" rel="nofollow"><span>Proceed to checkout<i class="icon-chevron-right right"></i></span></a>
 
-Welcome Text =<p class="info-account">Welcome to your account. Here you can manage all of your personal information and orders.</p>
-
-HomeButton = <li><a class="btn btn-default button button-small" href="http://www.automationpractice.pl/" title="Home"><span><i class="icon-chevron-left"></i> Home</span></a></li>
-
-
+Checkout Page
+    Plus Button = <span><i class="icon-plus"></i></span>
+    Counter = <input size="2" type="text" autocomplete="off" class="cart_quantity_input form-control grey" value="1" name="quantity_6_41_0_0">
