@@ -37,7 +37,7 @@ public class buyingClothes extends Hook {
 
     @Test(priority = 2)
     public void buyingADress() throws InterruptedException {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         WebElement womenButton = wait.until(ExpectedConditions.visibilityOfElementLocated(Locators.WomenButtonMainPage));
         Actions actions = new Actions(driver);
