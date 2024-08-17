@@ -1,0 +1,28 @@
+HomePage:
+WomenButtonHomeScreen = <a href="http://www.automationpractice.pl/index.php?id_category=3&amp;controller=category" title="Women" class="sf-with-ul">Women</a>
+
+T-shirtButtonSubMenu = <a href="http://www.automationpractice.pl/index.php?id_category=5&amp;controller=category" title="T-shirts">T-shirts</a>
+
+SignInButton = <a class="login" href="http://www.automationpractice.pl/index.php?controller=my-account" rel="nofollow" title="Log in to your customer account">Sign in</a>
+
+SingOutButton =<a class="logout" href="http://www.automationpractice.pl/index.php?mylogout=" rel="nofollow" title="Log me out">
+               			Sign out
+               		</a>
+
+SignIn Page:
+EmailTextField = <input class="is_required validate account_input form-control" data-validate="isEmail" type="text" id="email" name="email" value="">
+
+PasswordTextField = <input class="is_required validate account_input form-control" type="password" data-validate="isPasswd" id="passwd" name="passwd" value="">
+
+SubmitButton = <button type="submit" id="SubmitLogin" name="SubmitLogin" class="button btn btn-default button-medium">
+               							<span>
+               								<i class="icon-lock left"></i>
+               								Sign in
+               							</span>
+               						</button>
+
+Welcome Text =<p class="info-account">Welcome to your account. Here you can manage all of your personal information and orders.</p>
+
+HomeButton = <li><a class="btn btn-default button button-small" href="http://www.automationpractice.pl/" title="Home"><span><i class="icon-chevron-left"></i> Home</span></a></li>
+
+
