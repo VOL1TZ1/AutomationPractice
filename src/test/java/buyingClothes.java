@@ -71,7 +71,8 @@ public class buyingClothes extends Hook {
         WebElement plusButton = wait.until(ExpectedConditions.elementToBeClickable(Locators.PlusButton));
         plusButton.click();
 
-        WebElement counter = driver.findElement(Locators.CheckoutQuantityCounter);
+        WebElement counter =  wait.until(ExpectedConditions.elementToBeClickable(Locators.CheckoutQuantityCounter));
+        //Thread.sleep(Duration.ofSeconds(3));
         Assert.assertEquals(counter.getAttribute("size"), "2");
 
 

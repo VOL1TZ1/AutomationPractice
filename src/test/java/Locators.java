@@ -25,7 +25,8 @@ public class Locators {
 
     //Checkout Page
     public static By PlusButton = By.cssSelector("span > i.icon-plus");
-    public static By CheckoutQuantityCounter=By.name("quantity_6_41_0_0");
+    //public static By CheckoutQuantityCounter=By.name("quantity_6_41_0_0");
+    public static By CheckoutQuantityCounter=By.className("cart_quantity_input");
 
 
 

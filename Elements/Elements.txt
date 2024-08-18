@@ -25,3 +25,4 @@ Product Page
 Checkout Page
     Plus Button = <span><i class="icon-plus"></i></span>
     Counter = <input size="2" type="text" autocomplete="off" class="cart_quantity_input form-control grey" value="1" name="quantity_6_41_0_0">
+    <input size="2" type="text" autocomplete="off" class="cart_quantity_input form-control grey" value="1" name="quantity_6_41_0_0">
