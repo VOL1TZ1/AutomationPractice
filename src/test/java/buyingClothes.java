@@ -72,7 +72,6 @@ public class buyingClothes extends Hook {
         plusButton.click();
 
         WebElement counter =  wait.until(ExpectedConditions.elementToBeClickable(Locators.CheckoutQuantityCounter));
-        //Thread.sleep(Duration.ofSeconds(3));
         Assert.assertEquals(counter.getAttribute("size"), "2");
 
 
